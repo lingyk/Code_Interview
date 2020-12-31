@@ -1,6 +1,6 @@
 class Solution(object):
     def pushDomino(self, dominoes):
-        maxForce = len(dominoes)
+        maxForce = len(dominoes)+1
         forces = [0] * len(dominoes)
 
         force = 0
@@ -35,4 +35,6 @@ class Solution(object):
         return result
 
 print(Solution().pushDomino('..R...L..R.'))
+
+print(Solution().pushDomino('R'))
 
