@@ -8,4 +8,4 @@ class Solution(object):
                 return key
 
 
-print(Solution().nonDupliNum2([4,3,4,1,3,5]))
+print(Solution().nonDupliNum([4,3,4,1,3,5]))
